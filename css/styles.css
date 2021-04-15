@@ -1,0 +1,197 @@
+
+h1.gray {
+    text-align: center;
+    color: gray;
+}
+
+h1.black {
+    text-align: center;
+    color: black;
+    font-family: Ebrima;
+}
+
+body.home{
+    background: url("../images/achtergrond.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.aboutme {
+    background: url("../images/aboutmeachtergrond.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 70px;
+    background-color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 300%;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    text-spacing: 5px;
+}
+
+.hometext {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: steelblue;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    color: #777;
+    font-size: 35px;
+    font-weight: 250;
+}
+
+.image {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+.img-social {
+    width: 30px;
+    height: 30px;
+}
+p {
+    font-size: 40px;
+    color: azure;
+    line-height: 70px;
+
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+a:hover {
+    color: steelblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    padding: 10px;
+}
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutme-header {
+    color: azure;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.grid-aboutme {
+    font-size: 60px;
+    font-family: Ebrima;
+    color: azure;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fotoaboutme {
+    margin-top: -218px;
+    margin-left: 2px;
+}
+.balkonderfoto1 {
+    margin-left: 0px;
+    margin-top: -5px;
+}
+.balkrechtsfoto1 {
+    margin-left: 650px;
+    margin-top: -550px;
+}
+
+.fotoaboutme2 {
+margin-left: 1605px;
+margin-top: -176px;
+}
+
+.balkbovenfoto2 {
+    margin-left: 1600px;
+    margin-top: -520px;
+}
+
+.balklinksfoto2 {
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.aboutmetext {
+    text-align: center;
+    margin-right: 900px;
+    margin-top: -500px;
+}
+
